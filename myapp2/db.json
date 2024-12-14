@@ -1,0 +1,16 @@
+{
+  "useres": [
+    {
+      "id": 1,
+      "username": "mehdi",
+      "email": "mehdiazou@gmail.com",
+      "phone": "098987676"
+    },
+    {
+      "id": 2,
+      "username": "mehdi",
+      "email": "mehdiazou@gmail.com",
+      "phone": "098987676"
+    }
+  ]
+}

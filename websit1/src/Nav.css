@@ -1,0 +1,83 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar .menu li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar .menu li a:hover {
+  color: #ff5722;
+}
+
+/* Animated Buttons */
+.animated-btn {
+  background: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.animated-btn:hover {
+  background: #e64a19;
+  transform: scale(1.1);
+}
+
+/* Cards */
+.card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #ff5722;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #e64a19;
+}
+
+/* Social Icons */
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: rotate(360deg);
+  color: #ff5722;
+}
